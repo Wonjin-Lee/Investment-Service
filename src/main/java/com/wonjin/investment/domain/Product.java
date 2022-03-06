@@ -22,7 +22,6 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long product_id;
     private String title;
-    private int price;
     private long targetTotalAmount;
     private long currentTotalAmount;
     private int investorCount;
